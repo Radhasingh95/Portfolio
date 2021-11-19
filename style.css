@@ -1,0 +1,68 @@
+
+*{
+    margin:0;
+    padding:0;
+}
+.navbar{
+    /* font-size:  ; */
+    height:10vh;
+}
+.dark{
+    background-color: rgb(0, 0, 0);
+}
+.logo{
+    margin-left:10%;
+    margin-right: 40%;
+    font-size: 2rem;
+}
+.logo p{
+    color:white;
+    display:inline;
+    font-weight: bold;
+    
+}
+
+.logo span{
+    font-weight: bold;
+    color:blue;
+}
+
+#home{
+    content:"";
+    background: url('Assets/keyboard.jpg') no-repeat center center/cover;  
+    height:90vh;
+    padding:10%;
+    
+}
+.cont{
+    
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color:white;
+}
+.cont h1{
+    font-size: 4rem;
+    margin-bottom: 5%;
+}
+.cont span{
+    color:blue;
+}
+#homelink{
+    margin:4%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.foot{
+    background-color: #040919;
+    color:white;
+}
+section img{
+    filter:invert(1);
+
+}
+.col-2 span{
+    color: blue;
+}
