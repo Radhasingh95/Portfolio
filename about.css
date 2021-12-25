@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Poppins:wght@100&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: 'Poppins', sans-serif;
+    background:#000;
+}
+body{
+    /* display:flex; */
+    /* align-items: center; */
+    /* justify-content: center; */
+    min-height: 100vh;
+    /* background:#343F4F; */
+    background:#000;
+    
+}
+.container{
+    display:flex;
+    height:70vh;
+    background:#000;
+    width:100%;
+    
+}
+.container img{
+    height:50vh;
+    margin:8vh 65px;
+}
+.container p{
+    color:white;
+    font-size: 4vh;
+    margin-top:6vh;
+    font-family: 'Dancing Script', cursive;
+}
+
+#about>h1{
+    color:white;
+    font-size: 12vh;
+    font-family: 'Bree Serif', serif;
+}
+.wrapper{
+    display:inline-flex;
+    font-weight: bold;
+    margin-top: 3vh;;
+}
+.wrapper .static-txt{
+    color:#fff;
+    font-size:60px ;
+    font-weight:400;
+}
+.wrapper .dynamic-txts{
+margin-left:15px;
+height:90px;
+line-height:90px;
+
+overflow:hidden;
+
+}
+.dynamic-txts li{
+    color:#FC6D60;
+    list-style: none;
+    font-size:60px;
+    font-weight: 500;
+    position:relative;
+    top:0;
+    /* steps will be the no. of words  */
+    animation:slide 6s steps(4) infinite;
+}
+@keyframes slide{
+    100%{
+        top:-360px;
+
+    }
+}
+.dynamic-txts li span{
+    position:relative;
+}
+.dynamic-txts li span::after{
+    content:"";
+    position:absolute;
+    left:0;
+    height:100%;
+    width:100%;
+    background:#000;
+    border-left:2px solid #FC6D60;
+    animation:typing 1.5s steps(19) infinite;
+}
+@keyframes typing{
+    100%{
+        left:100%;
+        margin:0 -35px 0 35px;
+    }
+}
+#follow .heading{
+    color:white;
+    height:10vh;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 5vh;
+    font-family: 'Bree Serif', serif;
+}
