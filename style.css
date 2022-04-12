@@ -66,3 +66,93 @@ section img{
 .col-2 span{
     color: blue;
 }
+.pskills h5{
+font-size:3rem;
+color:rgb(84, 34, 236);
+width:30vw;
+margin:auto;
+text-align: center;
+}
+.skill{
+    border: 2px solid rgb(147, 5, 160);
+    border-radius: 20%;
+    margin:0.6rem 0.7rem;
+    width:60vw;
+    height:25vh;
+}
+.skill h3{
+    text-align: center;
+    font-size: 2.2rem;
+}
+.note{
+    display:flex;
+    
+    
+}
+.skills{
+display:flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+.note p{
+    font-size: 100.2%;
+}
+.note img{
+    width:6rem;
+    height:15vh;
+    /* margin:3rem; */
+
+}
+.front img{
+    width:4rem;
+    height:4rem;
+    margin:1.1rem;
+}
+#experience h1{
+    font-size:3rem;
+color:rgb(84, 34, 236);
+width:30vw;
+margin:auto;
+text-align: center;
+}
+.row{
+    display:flex;
+    width:90vw;
+    height:50vh;
+    margin:2px 93px;
+    margin-bottom: -5rem;
+    justify-content: center;
+    align-items: center;
+}
+.work{
+    display:flex;
+    flex-direction: column;
+    border:6px solid rgb(244, 10, 189);
+    width:28vw;
+    border-radius: 10%;
+    margin:8% 6%;
+    height:33vh;
+}
+.work p{
+    font-size: 0.82rem;
+}
+.work a{
+    font-size: 0.82rem;
+    display:inline-block;
+    width:10vw;
+}
+.projects{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.project{
+    border: 2px solid cyan;
+    margin:5px 3px;
+    width:80vw;
+}
+.project h4{
+    text-align: center;
+}

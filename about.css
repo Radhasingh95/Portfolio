@@ -17,9 +17,10 @@ body{
 }
 .container{
     display:flex;
-    height:70vh;
+    height:85vh;
     background:#000;
-    width:100%;
+    width:100vw;
+    margin:4px 0px;
     
 }
 .container img{
